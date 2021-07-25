@@ -39,11 +39,11 @@ const defaultMenu = {
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
-│ https://github.com/HackTeachz/wh-bot
+│ HackTeachz
 | 
 | HackTeachz 
-| Youtube : https://www.youtube.com/c/HackTeachz
-| Instgram : https://www.instagram.com/HackTeachz/
+| Youtube : HackTeachz
+| 
 |
 ╰────
 %readmore`.trimStart(),
