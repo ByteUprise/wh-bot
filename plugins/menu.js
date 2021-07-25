@@ -32,20 +32,19 @@ const defaultMenu = {
   before: `
 ╭─「 %me 」
 │ Hai, %name!
-│
-│ Tersisa *%limit Limit*
 │ Role *%role*
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
-│ 
-│ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
-│ Waktu: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
 │ Github:
-│ %github
+│ https://github.com/HackTeachz/wh-bot
+| 
+| HackTeachz 
+| Youtube : https://www.youtube.com/c/HackTeachz
+| Instgram : https://www.instagram.com/HackTeachz/
+|
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
