@@ -1,19 +1,17 @@
-# wabot-aq
+# wh-bot English
 
 Simple WhatsApp Bot
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nurutomo/wabot-aq)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
 ```bash
 apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
+apt install git 
+apt install nodejs 
+apt install ffmpeg 
+apt install imagemagick 
+git clone https://github.com/HackTeachz/wh-bot
+cd wh-bot
 npm install
 npm update
 ```
@@ -28,8 +26,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Nurutomo/wabot-aq
-cd wabot-aq
+git clone https://github.com/HackTeachz/wh-bot
+cd wh-bot
 npm install
 npm update
 ```
@@ -67,19 +65,6 @@ If that chat not from status, bot will ignore
 * `prefixes` are seperated by each character
 Set prefix
 
-### `--server`
-
-Used for [heroku](https://heroku.com/) or scan through website
-
-### `--db <json-server-url>`
-
-Use external db instead of local db, 
-Example Server `https://json-server.nurutomo.repl.co/`
-Code: `https://repl.it/@Nurutomo/json-server`
-
-`node . --db 'https://json-server.nurutomo.repl.co/'`
-
-The server should have like this specification
 
 #### GET
 
@@ -140,3 +125,5 @@ conn.logger.level = 'debug'
 ---------
 
 # wh-bot
+
+Youtube Subscribe : [`Click Here`](https://www.youtube.com/channel/UCkqKxx83QiB4d4Wtk_xAWwg/)
